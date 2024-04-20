@@ -201,7 +201,7 @@ body {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-.container .card button {
+.container .card a {
   position: absolute;
   right: 14px;
   bottom: 14px;
@@ -215,10 +215,10 @@ body {
   transition: all 0.3s ease;
   mix-blend-mode: hard-light;
 }
-.container .card button i {
+.container .card a i {
   font-size: 3rem;
 }
-.container .card:hover button {
+.container .card:hover a {
   transform: scale(16.5);
 }
 .container .card:hover p {
@@ -227,19 +227,19 @@ body {
 .container .card:hover .pic {
   filter: grayscale(0);
 }
-.container .quadrille button {
+.container .quadrille a {
   background-color: #2b26c3;
 }
-.container .versace button {
+.container .versace a {
   background-color: #2b26c3;
 }
-.container .spotchoreo button {
+.container .spotchoreo a {
   background-color: #2b26c3;
 }
-.container .metronome button {
+.container .metronome a {
   background-color: #2b26c3;
 }
-.container .innovate button {
+.container .innovate a {
   background-color: #2b26c3;
 }
 
