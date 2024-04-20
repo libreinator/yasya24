@@ -6,6 +6,7 @@
     <title>Yasya '24</title>
     <meta name="description" content="Beyond the Horizon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:image" content="/yasya.png" />
     <meta property="og:image:alt" content="Yasya '24 - Beyond the Horizon" />
     <meta property="og:image:type" content="image/png" />
@@ -19,11 +20,15 @@
       }
       iframe {
         display: block;
-        height: calc(100vh);
-        width: calc(100vw);
+        height: 100vh;
+        width: 100vw;
       }
       .competitions-frame {
-        height: 200vh;
+        height: 180vh;
+      }
+      .promo-frame {
+        /* make the height and width same */
+        height: 100vw;
       }
     </style>
   </head>
@@ -37,7 +42,12 @@
     <![endif]-->
     <div class="iframe-container">
       <iframe src="start-credits/" frameborder="0" allowfullscreen></iframe>
-      <iframe src="promo-video/" frameborder="0" allowfullscreen></iframe>
+      <iframe
+        class="promo-frame"
+        src="promo-video/"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
       <iframe
         class="competitions-frame"
         src="competitions/"
