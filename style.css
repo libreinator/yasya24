@@ -235,19 +235,19 @@ body {
   filter: grayscale(0);
 }
 .container .quadrille a {
-  background-color: #2b26c3;
+  background-color: #ff0000;
 }
 .container .versace a {
-  background-color: #2b26c3;
+  background-color: #ff00ff;
 }
 .container .spotchoreo a {
-  background-color: #2b26c3;
+  background-color: #ffff00;
 }
 .container .metronome a {
-  background-color: #2b26c3;
+  background-color: #00ff00;
 }
 .container .innovate a {
-  background-color: #2b26c3;
+  background-color: #0000ff;
 }
 
 .dr {

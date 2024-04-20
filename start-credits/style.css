@@ -224,7 +224,7 @@ span.hidden::after {
     right: 0.7rem;
 }
 .day1 h2:last-of-type {
-    left: 0.5rem;
+    left: 1.5rem;
 }
 
 .day1 #exhibition::after {
@@ -249,10 +249,10 @@ span.hidden::after {
     left: 0.43rem;
 }
 .day2 h2:first-of-type {
-    right: 0.3rem;
+    right: -0.7rem;
 }
 .day2 h2:last-of-type {
-    right: 0.54rem;
+    right: -0.46rem;
 }
 .day2 h2:last-of-type::after {
     content: "";
@@ -273,10 +273,13 @@ span.hidden::after {
     right: 0.95rem;
 }
 .day3 h2:last-of-type {
-    right: 0.32rem;
+    left: -0.12rem;
 }
 .day3 h2:first-of-type {
-    left: 0.25rem;
+    left: 1.25rem;
+}
+.day3 h2:nth-of-type(2) {
+    left: 0.7rem;
 }
 
 h2::after {
