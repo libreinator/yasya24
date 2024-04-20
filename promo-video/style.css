@@ -13,7 +13,7 @@ body {
 #videobcg {
   width: inherit;
   height: inherit;
-  filter: blur(15px);
+  filter: blur(5px);
   object-fit: cover;
   transform: scale(1.2);
 }
