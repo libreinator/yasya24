@@ -12,7 +12,30 @@
     font-family: InterVariable, sans-serif;
   }
 }
+
+iframe {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+.competitions-frame {
+  height: 180vh;
+}
+
+@media (orientation: landscape) {
+  .promo-frame {
+    /* make the height and width same */
+    height: 100vw;
+  }
+}
+@media (orientation: portrait) {
+  .promo-frame {
+    height: 100vh;
+  }
+}
+
 body {
+  margin: 0;
   background: #110a3c;
   color: white;
 }
