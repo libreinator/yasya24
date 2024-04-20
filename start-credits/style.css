@@ -223,6 +223,10 @@ span.hidden::after {
 .day1 h3 {
     right: 0.7rem;
 }
+.day1 h2:last-of-type {
+    left: 0.3rem;
+}
+
 .day1 #exhibition::after {
     content: "";
     position: absolute;
@@ -245,7 +249,7 @@ span.hidden::after {
     left: 0.43rem;
 }
 .day2 h2:first-of-type {
-    right: 0.8rem;
+    right: 0.5rem;
 }
 .day2 h2:last-of-type {
     right: 0.54rem;

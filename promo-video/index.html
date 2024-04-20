@@ -2,12 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodePen - yasya video new</title>
+    <title>CodePen - yasya promo video third</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- partial:index.partial.html -->
-    <!--<h2>Beyond the Horizon</h2>-->
+    <div id="container">
+      <video
+        id="videobcg"
+        preload="auto"
+        autoplay="true"
+        loop="loop"
+        muted="muted"
+        volume="0"
+      >
+        <source src="promo.av1" type="video/av1" />
+        <source src="promo.webm" type="video/webm" />
+        <source src="promo.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <img class="logo" src="yasya-text.png" alt="Yasya logo" />
     <!-- partial -->
     <script src="./script.js"></script>
   </body>

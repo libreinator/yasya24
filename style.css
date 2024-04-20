@@ -22,16 +22,9 @@ iframe {
   height: 180vh;
 }
 
-@media (orientation: landscape) {
-  .promo-frame {
-    /* make the height and width same */
-    height: 100vw;
-  }
-}
-@media (orientation: portrait) {
-  .promo-frame {
-    height: 100vh;
-  }
+.promo-frame {
+  /* make the height and width same */
+  height: 100vw;
 }
 
 body {
@@ -254,10 +247,10 @@ body {
   /* https://unsplash.com/photos/bokeh-photography-of-condenser-microphone-Y20JJ_ddy9M?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */
   background-image: url("metronome.jpg");
 }
-.container .spotchoreo .pic {
+.container .quadrille .pic {
   background-image: url("step-up.jpg");
 }
-.container .quadrille .pic {
+.container .spotchoreo .pic {
   /* https://unsplash.com/photos/a-couple-of-people-that-are-dancing-on-a-stage-KHipnBn7sdY?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */
   background-image: url("quadrille.jpg");
 }

@@ -1,30 +1,28 @@
-@include ("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter.css");
-
-:root {
-    font-family: Inter, sans-serif;
-    font-feature-settings:
-        "liga" 1,
-        "calt" 1;
-    /* fix for Chrome */
-}
-
-@supports (font-variation-settings: normal) {
-    :root {
-        font-family: InterVariable, sans-serif;
-    }
-}
 body {
-    background: linear-gradient(45deg, #110a3c 0%, #230e6e 100%) no-repeat;
+  margin: 0;
+  background-color: black;
 }
 
-h2 {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 35vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #dcdcdc;
-    font-weight: 200;
-    font-size: 4em;
+#container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  filter: brightness(90%);
+}
+#videobcg {
+  width: inherit;
+  height: inherit;
+  filter: blur(15px);
+  object-fit: cover;
+  transform: scale(1.2);
+}
+
+.logo {
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  z-index: 300000;
+  width: 70vw;
+  margin: -332 0 0 -1500;
 }
