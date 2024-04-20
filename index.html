@@ -221,12 +221,30 @@
     </div>
     <iframe
       src="end-credits/"
+      id="end-credits"
       frameborder="0"
       allowfullscreen
       loading="lazy"
     ></iframe>
 
     <!-- partial -->
+    <script type="application/javascript">
+      function resizeIFrameToFitContent(iFrame) {
+        iFrame.width = iFrame.contentWindow.document.body.scrollWidth;
+        iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+      }
+
+      window.addEventListener("DOMContentLoaded", function (e) {
+        var iFrame = document.getElementById("end-credits");
+        resizeIFrameToFitContent(iFrame);
+
+        // or, to resize all iframes:
+        var iframes = document.querySelectorAll("iframe");
+        for (var i = 0; i < iframes.length; i++) {
+          resizeIFrameToFitContent(iframes[i]);
+        }
+      });
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
