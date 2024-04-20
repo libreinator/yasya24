@@ -76,7 +76,7 @@ body {
 @media (orientation: landscape) {
   .container .card {
     position: relative;
-    width: 50vw;
+    width: 500px;
     height: 200px;
     background-color: #fff;
     overflow: hidden;
