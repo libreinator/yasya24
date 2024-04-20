@@ -10,7 +10,7 @@ body {
 }
 
 .label {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .intro {
@@ -20,13 +20,13 @@ body {
 
 .director {
   margin-top: 1rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.5rem;
 }
 
 .crew {
   margin-top: 10rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.025rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
