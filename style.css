@@ -72,36 +72,50 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.container .card {
-  position: relative;
-  width: 500px;
-  height: 200px;
-  background-color: #fff;
-  overflow: hidden;
-  margin-bottom: 4px;
+
+@media (orientation: landscape) {
+  .container .card {
+    position: relative;
+    width: 50vw;
+    height: 200px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+}
+
+@media (orientation: portrait) {
+  .container .card {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
 }
 .container .card:before {
   content: "";
   z-index: 99;
   position: absolute;
-  top: -10px;
-  left: 32px;
+  top: -0.625em;
+  left: 2em;
   display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
   background-color: #230e6e;
 }
 .container .card:after {
   content: "";
   z-index: 99;
   position: absolute;
-  bottom: -10px;
-  left: 32px;
+  bottom: -0.625em;
+  left: 2em;
   display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
   background-color: #230e6e;
 }
 .container .card ul {
