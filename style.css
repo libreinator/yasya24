@@ -236,9 +236,6 @@ body {
 .container .spotchoreo button {
   background-color: #2b26c3;
 }
-.container .metronome .pic {
-  background-image: url("https://oshi.at/DsLk/cWQG.jpg");
-}
 .container .metronome button {
   background-color: #2b26c3;
 }
@@ -251,4 +248,21 @@ body {
   bottom: 16px;
   right: 16px;
   width: 100px;
+}
+
+.container .metronome .pic {
+  /* https://unsplash.com/photos/bokeh-photography-of-condenser-microphone-Y20JJ_ddy9M?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */
+  background-image: url("metronome.jpg");
+}
+.container .spotchoreo .pic {
+  background-image: url("step-up.jpg");
+}
+.container .quadrille .pic {
+  background-image: url("quadrille.jpg");
+}
+.container .versace .pic {
+  background-image: url("versace.jpg");
+}
+.container .innovate .pic {
+  background-image: url("innovate.jpg");
 }
