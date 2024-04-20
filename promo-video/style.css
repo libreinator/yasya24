@@ -1,3 +1,30 @@
+@include ("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter.css");
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
 body {
-  background: linear-gradient(45deg, #110a3c 0%, #230e6e 100%) no-repeat;
+    background: linear-gradient(45deg, #110a3c 0%, #230e6e 100%) no-repeat;
+}
+
+h2 {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #dcdcdc;
+    font-weight: 200;
+    font-size: 4em;
 }

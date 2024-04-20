@@ -30,7 +30,7 @@ function initCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = (vHeight / vWidth) * canvas.width;
     var fontSize = (vWidth / 2) * (window.innerWidth / vWidth) * 0.35;
-    ctx.font = "700 " + fontSize + "px Impact,sans-serif";
+    ctx.font = "700 " + fontSize + "px Inter,sans-serif";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
   };
