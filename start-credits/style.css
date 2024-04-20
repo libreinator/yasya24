@@ -8,341 +8,354 @@
 /* stagger animation start times */
 /* keep a consistent "drip" speed */
 @-webkit-keyframes "day1T" {
-  from {
-    bottom: 0.191rem;
-  }
-  to {
-    bottom: -11.32rem;
-  }
+    from {
+        bottom: 0.191rem;
+    }
+    to {
+        bottom: -11.32rem;
+    }
 }
 @keyframes "day1T" {
-  from {
-    bottom: 0.191rem;
-  }
-  to {
-    bottom: -11.32rem;
-  }
+    from {
+        bottom: 0.191rem;
+    }
+    to {
+        bottom: -11.32rem;
+    }
 }
 @-webkit-keyframes "day2B" {
-  from {
-    bottom: 0.19rem;
-  }
-  to {
-    bottom: -0.82rem;
-  }
+    from {
+        bottom: 0.19rem;
+    }
+    to {
+        bottom: -0.82rem;
+    }
 }
 @keyframes "day2B" {
-  from {
-    bottom: 0.19rem;
-  }
-  to {
-    bottom: -0.82rem;
-  }
+    from {
+        bottom: 0.19rem;
+    }
+    to {
+        bottom: -0.82rem;
+    }
 }
 @-webkit-keyframes "day2T" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -0.822rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -0.822rem;
+    }
 }
 @keyframes "day2T" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -0.822rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -0.822rem;
+    }
 }
 @-webkit-keyframes "day2I" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -11.324rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -11.324rem;
+    }
 }
 @keyframes "day2I" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -11.324rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -11.324rem;
+    }
 }
 @-webkit-keyframes "day3E" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -0.815rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -0.815rem;
+    }
 }
 @keyframes "day3E" {
-  from {
-    bottom: 0.18rem;
-  }
-  to {
-    bottom: -0.815rem;
-  }
+    from {
+        bottom: 0.18rem;
+    }
+    to {
+        bottom: -0.815rem;
+    }
 }
 /* -----------EMULATE HIDDEN LETTERS --------- */
 /* ---------- WHOLE PAGE ANIMATIONS ---------- */
 /* fade in to start */
 @-webkit-keyframes "fadeIn" {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 @keyframes "fadeIn" {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 /* scroll the credits through they body window */
 /* stop at key points to see each credit */
 @-webkit-keyframes "scroll" {
-  /* Don't use calc inside translate - IE bug*/
-  /* Instead, separate into two translateY values */
-  /* Actually, cut the vh segment entirely, it messed up IE */
-  33% {
-    /*translateY(-30vh)*/
-    transform: translateY(-500px);
-  }
-  67% {
-    /*translateY(-30vh)*/
-    transform: translateY(-1300px);
-  }
-  100% {
-    /*translateY(-30vh)*/
-    transform: translateY(-1900px);
-  }
+    /* Don't use calc inside translate - IE bug*/
+    /* Instead, separate into two translateY values */
+    /* Actually, cut the vh segment entirely, it messed up IE */
+    33% {
+        /*translateY(-30vh)*/
+        transform: translateY(-500px);
+    }
+    67% {
+        /*translateY(-30vh)*/
+        transform: translateY(-1300px);
+    }
+    100% {
+        /*translateY(-30vh)*/
+        transform: translateY(-1900px);
+    }
 }
 @keyframes "scroll" {
-  /* Don't use calc inside translate - IE bug*/
-  /* Instead, separate into two translateY values */
-  /* Actually, cut the vh segment entirely, it messed up IE */
-  33% {
-    /*translateY(-30vh)*/
-    transform: translateY(-500px);
-  }
-  67% {
-    /*translateY(-30vh)*/
-    transform: translateY(-1300px);
-  }
-  100% {
-    /*translateY(-30vh)*/
-    transform: translateY(-1900px);
-  }
+    /* Don't use calc inside translate - IE bug*/
+    /* Instead, separate into two translateY values */
+    /* Actually, cut the vh segment entirely, it messed up IE */
+    33% {
+        /*translateY(-30vh)*/
+        transform: translateY(-500px);
+    }
+    67% {
+        /*translateY(-30vh)*/
+        transform: translateY(-1300px);
+    }
+    100% {
+        /*translateY(-30vh)*/
+        transform: translateY(-1900px);
+    }
 }
 html {
-  background: black;
-  color: white;
-  font-family: "BenchNine", sans-serif;
-  text-transform: uppercase;
-  font-size: 49px;
-  letter-spacing: -0.04rem;
-  text-align: center;
+    background: black;
+    color: white;
+    font-family: "BenchNine", sans-serif;
+    text-transform: uppercase;
+    font-size: 49px;
+    letter-spacing: -0.04rem;
+    text-align: center;
 }
 
 body {
-  background: black;
-  color: white;
-  font-family: "BenchNine", sans-serif;
-  text-transform: uppercase;
-  font-size: 49px;
-  letter-spacing: -0.04rem;
-  text-align: center;
-  height: 100%;
-  overflow: hidden;
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
-  -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+    background: black;
+    color: white;
+    font-family: "BenchNine", sans-serif;
+    text-transform: uppercase;
+    font-size: 49px;
+    letter-spacing: -0.04rem;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 body > div * {
-  position: relative;
+    position: relative;
 }
 body > div > div {
-  width: 6.94rem;
-  margin-bottom: 500px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 6.94rem;
+    margin-bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 body > div > div:first-of-type {
-  margin-top: 40vh;
+    margin-top: 40vh;
 }
 body > div > div:last-of-type {
-  margin-bottom: 50vh;
+    margin-bottom: 50vh;
 }
 
 h3 {
-  font-size: 0.31rem;
-  letter-spacing: 0.04rem;
+    font-size: 0.31rem;
+    letter-spacing: 0.04rem;
 }
 
 span.supporting {
-  font-size: 0.63rem;
+    font-size: 0.63rem;
 }
 
 span.credentials {
-  font-size: 0.63rem;
+    font-size: 0.63rem;
 }
 
 span.hidden {
-  color: black;
-  font-size: inherit;
-  z-index: 0;
+    color: black;
+    font-size: inherit;
+    z-index: 0;
 }
 span.hidden::before {
-  content: "";
-  position: absolute;
-  visibility: visible;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
 }
 span.hidden::after {
-  content: "";
-  position: absolute;
-  visibility: visible;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
 }
 
 .day1 h3 {
-  right: 0.7rem;
+    right: 0.7rem;
 }
 .day1 #exhibition::after {
-  content: "";
-  position: absolute;
-  border-left: 0.123rem solid white;
-  top: 0.1rem;
-  left: 3.33rem;
-  bottom: -11.32rem;
-  -webkit-animation-name: day1T;
-          animation-name: day1T;
-  -webkit-animation-duration: 6s;
-          animation-duration: 6s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+    content: "";
+    position: absolute;
+    border-left: 0.123rem solid white;
+    top: 0.1rem;
+    left: 3.33rem;
+    bottom: -11.32rem;
+    -webkit-animation-name: day1T;
+    animation-name: day1T;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .day2 {
-  right: 0.55rem;
+    right: 0.55rem;
 }
 .day2 h3 {
-  left: 0.43rem;
+    left: 0.43rem;
 }
 .day2 h2:first-of-type {
-  right: 0.8rem;
+    right: 0.8rem;
 }
 .day2 h2:last-of-type {
-  right: 0.54rem;
+    right: 0.54rem;
 }
 .day2 h2:last-of-type::after {
-  content: "";
-  position: absolute;
-  border-left: 0.12rem solid white;
-  top: 0.111rem;
-  left: 2.65rem;
-  bottom: -11.324rem;
-  -webkit-animation-name: day2I;
-          animation-name: day2I;
-  -webkit-animation-duration: 6s;
-          animation-duration: 6s;
-  -webkit-animation-delay: 8.4s;
-          animation-delay: 8.4s;
+    content: "";
+    position: absolute;
+    border-left: 0.12rem solid white;
+    top: 0.111rem;
+    left: 2.65rem;
+    bottom: -11.324rem;
+    -webkit-animation-name: day2I;
+    animation-name: day2I;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-delay: 8.4s;
+    animation-delay: 8.4s;
 }
 
 .day3 {
-  right: 0.95rem;
+    right: 0.95rem;
 }
 .day3 h2:last-of-type {
-  right: 0.32rem;
+    right: 0.32rem;
 }
 .day3 h2:first-of-type {
-  left: 0.25rem;
+    left: 0.25rem;
 }
 
 h2::after {
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  z-index: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 1;
 }
 
 span.hidden.e::before {
-  border-top: 0.09rem solid white;
-  border-bottom: 0.09rem solid white;
-  top: 0.3rem;
-  left: 0.18rem;
-  bottom: 0.66rem;
-  right: 0rem;
+    border-top: 0.09rem solid white;
+    border-bottom: 0.09rem solid white;
+    top: 0.3rem;
+    left: 0.18rem;
+    bottom: 0.66rem;
+    right: 0rem;
 }
 span.hidden.e::after {
-  border-bottom: 0.09rem solid white;
-  top: 0.6rem;
-  left: 0.18rem;
-  bottom: 0.37rem;
-  right: 0rem;
+    border-bottom: 0.09rem solid white;
+    top: 0.6rem;
+    left: 0.18rem;
+    bottom: 0.37rem;
+    right: 0rem;
 }
 
 span.hidden.h::before {
-  border-bottom: 0.07rem solid white;
-  top: 0.3rem;
-  left: 0.1rem;
-  bottom: 0.66rem;
-  right: 0.16rem;
+    border-bottom: 0.07rem solid white;
+    top: 0.3rem;
+    left: 0.1rem;
+    bottom: 0.66rem;
+    right: 0.16rem;
 }
 span.hidden.h::after {
-  border-left: 0.09rem solid white;
-  top: 0.3rem;
-  left: 0.06rem;
-  bottom: 0.37rem;
-  right: 0.18rem;
+    border-left: 0.09rem solid white;
+    top: 0.3rem;
+    left: 0.06rem;
+    bottom: 0.37rem;
+    right: 0.18rem;
 }
 
 span.hidden.b::before {
-  top: 0.3rem;
-  bottom: 0.65rem;
-  left: 0.23rem;
-  right: 0;
-  border-radius: 0 0.1rem 0.09rem 0;
-  border-right: 0.1rem solid white;
-  border-top: 0.1rem solid white;
-  border-bottom: 0.09rem solid white;
+    top: 0.3rem;
+    bottom: 0.65rem;
+    left: 0.23rem;
+    right: 0;
+    border-radius: 0 0.1rem 0.09rem 0;
+    border-right: 0.1rem solid white;
+    border-top: 0.1rem solid white;
+    border-bottom: 0.09rem solid white;
 }
 span.hidden.b::after {
-  top: 0.6rem;
-  bottom: 0.34rem;
-  left: 0.23rem;
-  right: 0;
-  border-radius: 0 0.09rem 0.1rem 0;
-  border-right: 0.1rem solid white;
-  border-bottom: 0.1rem solid white;
+    top: 0.6rem;
+    bottom: 0.34rem;
+    left: 0.23rem;
+    right: 0;
+    border-radius: 0 0.09rem 0.1rem 0;
+    border-right: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
 }
 
 div.credits {
-  -webkit-animation-name: scroll;
-          animation-name: scroll;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
-  -webkit-animation-delay: 2.6s;
-          animation-delay: 2.6s;
-  -webkit-animation-timing-function: cubic-bezier(0.81, 0, 0.19, 1);
-          animation-timing-function: cubic-bezier(0.81, 0, 0.19, 1);
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: 17s;
+    animation-duration: 17s;
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+    -webkit-animation-timing-function: cubic-bezier(0.81, 0, 0.19, 1);
+    animation-timing-function: cubic-bezier(0.81, 0, 0.19, 1);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+div.credits div:last-of-type::after {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    margin: -1em 0 0 -0.6em;
+    border-left: 0.05em solid #fff;
+    border-bottom: 0.05em solid #fff;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
 }
