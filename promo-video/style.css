@@ -1,3 +1,18 @@
+@include ("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter.css"):
+  root {
+  font-family: Inter, sans-serif;
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
+  /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
 body {
   margin: 0;
   background-color: black;
@@ -8,7 +23,7 @@ body {
   height: 100vh;
   text-align: center;
   overflow: hidden;
-  filter: brightness(90%);
+  filter: brightness(70%);
 }
 #videobcg {
   width: inherit;
@@ -22,7 +37,18 @@ body {
   position: absolute;
   top: 40vh;
   left: 20vw;
+  right: 20vw;
   z-index: 300000;
   width: 70vw;
   margin: -332 0 0 -1500;
+}
+
+.above-video {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  right: 50%;
+  z-index: 300000;
+  /* width: 70vw; */
+  /* margin: -332 0 0 -1500; */
 }
