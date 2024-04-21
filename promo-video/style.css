@@ -52,3 +52,11 @@ body {
   /* width: 70vw; */
   /* margin: -332 0 0 -1500; */
 }
+.above-video-2 {
+  position: absolute;
+  bottom: 30%;
+  left: 44%;
+  z-index: 300000;
+  /* width: 70vw; */
+  /* margin: -332 0 0 -1500; */
+}
