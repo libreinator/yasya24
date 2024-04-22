@@ -86,16 +86,34 @@ body {
     overflow: hidden;
     margin-bottom: 4px;
   }
+  .container .card .pic {
+    z-index: 100;
+    width: 400px;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80");
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+  }
 }
 
 @media (orientation: portrait) {
   .container .card {
     position: relative;
     width: 100vw;
-    height: 200px;
+    height: 12.5em;
     background-color: #fff;
     overflow: hidden;
-    margin-bottom: 4px;
+    margin-bottom: 1em;
+  }
+  .container .card .pic {
+    z-index: 100;
+    width: 80vw;
+    height: 12.5em;
+    background-image: url("https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80");
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
   }
 }
 .container .card:before {
@@ -140,8 +158,8 @@ body {
   z-index: 99;
   position: absolute;
   bottom: 0;
-  right: 130px;
-  font-size: 60px;
+  right: 0.3em;
+  font-size: 3.75em;
   font-weight: 700;
   color: #fff;
 }
@@ -150,31 +168,23 @@ body {
   position: absolute;
   right: 75px;
   bottom: 25px;
-  font-size: 40px;
+  font-size: 2.5em;
   cursor: pointer;
 }
 .container .card p {
   z-index: 99;
   position: absolute;
-  top: 20px;
-  right: 70px;
+  top: 2vw;
+  right: 0.875em;
   color: #333;
   opacity: 0.7;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 0.75em;
+  letter-spacing: 0.0625em;
   writing-mode: vertical-lr;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.container .card .pic {
-  z-index: 100;
-  width: 400px;
-  height: 200px;
-  background-image: url("https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80");
-  background-position: center;
-  background-size: cover;
-  filter: grayscale(100%);
-}
+
 .container .card .social {
   position: absolute;
   left: 60px;
@@ -214,13 +224,13 @@ body {
 }
 .container .card a {
   position: absolute;
-  right: 14px;
-  bottom: 14px;
-  width: 30px;
-  height: 30px;
+  right: 0.875em;
+  bottom: 0.875em;
+  width: 1.875em;
+  height: 1.875em;
   background-color: #da4d1d;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.875em;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
@@ -252,13 +262,6 @@ body {
 }
 .container .innovate a {
   background-color: #0000ff;
-}
-
-.dr {
-  position: absolute;
-  bottom: 16px;
-  right: 16px;
-  width: 100px;
 }
 
 .container .metronome .pic {
