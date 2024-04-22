@@ -27,6 +27,10 @@ iframe {
   height: 100vw;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: #110a3c;
