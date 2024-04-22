@@ -2,7 +2,9 @@
 
 Official website of Yasya '24
 
-Mostly based on code from codepen pens stitched together with iframes
+Mostly based on code from codepen pens stitched together with iframes.
+
+Hosted on Cloudflare Pages
 
 ## Acknowledgements
 
