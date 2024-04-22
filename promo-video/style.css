@@ -45,7 +45,7 @@ body {
 
 .above-video {
   position: absolute;
-  bottom: 10%;
+  bottom: 1vh;
   left: 50%;
   right: 50%;
   z-index: 300000;
@@ -53,10 +53,10 @@ body {
   /* margin: -332 0 0 -1500; */
 }
 .above-video-2 {
-  position: absolute;
-  bottom: 30%;
-  left: 44%;
-  z-index: 300000;
+  position: relative;
+  /* bottom: 20vh; */
+  /* left: 44%; */
+  /* z-index: 300000; */
   /* width: 70vw; */
   /* margin: -332 0 0 -1500; */
 }
