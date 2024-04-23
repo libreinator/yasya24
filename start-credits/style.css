@@ -353,14 +353,18 @@ div.credits {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-div.credits div:last-of-type::after {
+.arrow-container {
     position: absolute;
     top: 40vh;
     left: 50%;
     content: "";
     width: 0.5em;
     height: 0.5em;
-    margin: -1em 0 0 -0.6em;
+}
+.arrow {
+    width: 0.5em;
+    height: 0.5em;
+    margin-left: -0.25em;
     border-left: 0.05em solid #fff;
     border-bottom: 0.05em solid #fff;
     transform: rotate(-45deg);
