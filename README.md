@@ -13,3 +13,4 @@ Hosted on Cloudflare Pages
 - Schedule list based on a pen [Credits - 10 Cloverfield Lane by Abbey McTaggart](https://codepen.io/amctagg1/pen/MJjbBg "CodePen")
 - Competitions cards based on a pen [Info Cards Concept by Yancy Min](https://codepen.io/yancy/pen/gBLLxz "CodePen")
 - Team and coordinators cards based on [Profile card by Krishna Gudpalle](https://tailwindflex.com/@krishna/profile-card "TailwindFlex")
+- Yasya countdown based on a pen by [Captain Anonymous](https://codepen.io/anon/pen/LpzXPL/ "CodePen")
