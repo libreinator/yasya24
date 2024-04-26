@@ -285,7 +285,7 @@ span.hidden::after {
 }
 
 .day3 h2:last-of-type {
-    left: -0.12rem;
+    left: 0.5rem;
 }
 
 .day3 h2:first-of-type {
@@ -293,7 +293,7 @@ span.hidden::after {
 }
 
 .day3 h2:nth-of-type(2) {
-    left: 0.7rem;
+    left: 0.6rem;
 }
 
 h2::after {
@@ -373,7 +373,7 @@ div.credits {
 
 .arrow-container {
     position: absolute;
-    top: 35vh;
+    top: 30vh;
     left: 50%;
     content: "";
     width: 0.5em;
