@@ -12,7 +12,7 @@
         bottom: 0.191rem;
     }
     to {
-        bottom: -11.32rem;
+        bottom: -12.32rem;
     }
 }
 @keyframes "day1T" {
@@ -20,7 +20,7 @@
         bottom: 0.191rem;
     }
     to {
-        bottom: -11.32rem;
+        bottom: -12.32rem;
     }
 }
 @-webkit-keyframes "day2B" {
@@ -114,15 +114,15 @@
     /* Actually, cut the vh segment entirely, it messed up IE */
     33% {
         /*translateY(-30vh)*/
-        transform: translateY(-500px);
+        transform: translateY(-700px);
     }
     67% {
         /*translateY(-30vh)*/
-        transform: translateY(-1300px);
+        transform: translateY(-1400px);
     }
     100% {
         /*translateY(-30vh)*/
-        transform: translateY(-1900px);
+        transform: translateY(-2000px);
     }
 }
 @keyframes "scroll" {
@@ -131,15 +131,15 @@
     /* Actually, cut the vh segment entirely, it messed up IE */
     33% {
         /*translateY(-30vh)*/
-        transform: translateY(-500px);
+        transform: translateY(-700px);
     }
     67% {
         /*translateY(-30vh)*/
-        transform: translateY(-1300px);
+        transform: translateY(-1400px);
     }
     100% {
         /*translateY(-30vh)*/
-        transform: translateY(-1900px);
+        transform: translateY(-2000px);
     }
 }
 html {
@@ -173,18 +173,22 @@ body {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+
 body > div * {
     position: relative;
 }
+
 body > div > div {
     width: 6.94rem;
     margin-bottom: 500px;
     margin-left: auto;
     margin-right: auto;
 }
+
 body > div > div:first-of-type {
     margin-top: 40vh;
 }
+
 body > div > div:last-of-type {
     margin-bottom: 50vh;
 }
@@ -207,12 +211,14 @@ span.hidden {
     font-size: inherit;
     z-index: 0;
 }
+
 span.hidden::before {
     content: "";
     position: absolute;
     visibility: visible;
     z-index: 1;
 }
+
 span.hidden::after {
     content: "";
     position: absolute;
@@ -223,8 +229,9 @@ span.hidden::after {
 .day1 h3 {
     right: 0.7rem;
 }
+
 .day1 h2:last-of-type {
-    left: 1.5rem;
+    left: 0.5rem;
 }
 
 .day1 #exhibition::after {
@@ -233,7 +240,7 @@ span.hidden::after {
     border-left: 0.123rem solid white;
     top: 0.1rem;
     left: 3.33rem;
-    bottom: -11.32rem;
+    bottom: -12.32rem;
     -webkit-animation-name: day1T;
     animation-name: day1T;
     -webkit-animation-duration: 6s;
@@ -245,21 +252,25 @@ span.hidden::after {
 .day2 {
     right: 0.55rem;
 }
+
 .day2 h3 {
     left: 0.43rem;
 }
+
 .day2 h2:first-of-type {
-    right: -0.7rem;
+    right: -0.03rem;
 }
+
 .day2 h2:last-of-type {
-    right: -0.46rem;
+    right: 0.5rem;
 }
+
 .day2 h2:last-of-type::after {
     content: "";
     position: absolute;
     border-left: 0.12rem solid white;
     top: 0.111rem;
-    left: 2.65rem;
+    left: 2.98rem;
     bottom: -11.324rem;
     -webkit-animation-name: day2I;
     animation-name: day2I;
@@ -272,14 +283,17 @@ span.hidden::after {
 .day3 {
     right: 0.95rem;
 }
+
 .day3 h2:last-of-type {
-    left: -0.12rem;
+    left: 0.5rem;
 }
+
 .day3 h2:first-of-type {
-    left: 1.25rem;
+    left: 0.65rem;
 }
+
 .day3 h2:nth-of-type(2) {
-    left: 0.7rem;
+    left: 0.6rem;
 }
 
 h2::after {
@@ -298,6 +312,7 @@ span.hidden.e::before {
     bottom: 0.66rem;
     right: 0rem;
 }
+
 span.hidden.e::after {
     border-bottom: 0.09rem solid white;
     top: 0.6rem;
@@ -313,6 +328,7 @@ span.hidden.h::before {
     bottom: 0.66rem;
     right: 0.16rem;
 }
+
 span.hidden.h::after {
     border-left: 0.09rem solid white;
     top: 0.3rem;
@@ -331,6 +347,7 @@ span.hidden.b::before {
     border-top: 0.1rem solid white;
     border-bottom: 0.09rem solid white;
 }
+
 span.hidden.b::after {
     top: 0.6rem;
     bottom: 0.34rem;
@@ -353,14 +370,16 @@ div.credits {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+
 .arrow-container {
     position: absolute;
-    top: 40vh;
+    top: 30vh;
     left: 50%;
     content: "";
     width: 0.5em;
     height: 0.5em;
 }
+
 .arrow {
     width: 0.5em;
     height: 0.5em;
