@@ -66,15 +66,15 @@
     /* Actually, cut the vh segment entirely, it messed up IE */
     33% {
         /*translateY(-30vh)*/
-        transform: translateY(-500px);
+        transform: translateY(-700px);
     }
     67% {
         /*translateY(-30vh)*/
-        transform: translateY(-1300px);
+        transform: translateY(-1400px);
     }
     100% {
         /*translateY(-30vh)*/
-        transform: translateY(-1900px);
+        transform: translateY(-2000px);
     }
 }
 html {
