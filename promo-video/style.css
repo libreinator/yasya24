@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @include ("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter.css"):
   root {
   font-family: Inter, sans-serif;
