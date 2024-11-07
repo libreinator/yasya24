@@ -1,0 +1,26 @@
+# Welcome to the Yasya 24 robots.txt
+# If you're a bot, please parse this file and do the honours.
+# If you're a human, please get a life.
+# If you're a big corp crawler scraping data for training your ML models,
+# please screw yourself.
+User-agent: anthropic-ai
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: FacebookBot
+User-agent: GPTBot
+User-agent: ImagesiftBot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: Omgilibot
+User-agent: PerplexityBot
+User-agent: Timpibot
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Disallow:
