@@ -12,6 +12,8 @@ All files in this repository, except the ones mentioned below are licensed
 under a [Creative Commons Attribution-ShareAlike 4.0
 License][cc-by-sa-4.0]. See `LICENSE` for the full license.
 
+Photos in the "Competitions" section are licensed under the [Unsplash License](https://unsplash.com/license).
+
 All files under `teams/` (photos under "The Team" and "Inter-College
 Coordinators" section in the website) are copyrighted and should not be
 used for any purpose without the permission of the authors.
@@ -24,6 +26,7 @@ used for any purpose without the permission of the authors.
 - Competitions cards based on a pen [Info Cards Concept by Yancy Min](https://codepen.io/yancy/pen/gBLLxz "CodePen")
 - Team and coordinators cards based on [Profile card by Krishna Gudpalle](https://tailwindflex.com/@krishna/profile-card "TailwindFlex")
 - Yasya countdown based on a pen by [Captain Anonymous](https://codepen.io/anon/pen/LpzXPL/ "CodePen")
+- Background video beneath countdown timer from [Yasya 2023](https://yasya.pages.dev), source unknown. All we know is the filename `VN20230430_001428.mp4`. Please get in touch if you know the author of the work.
 - Quadrille photo by [ketan rajput](https://unsplash.com/@ketan_rajput?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/four-women-dancing-grayscale-photography-n-g7dgwNZg4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Versace photo by [Armen Aydinyan](https://unsplash.com/@mumble57?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/group-of-women-in-blue-and-pink-traditional-dresses-bhJfx7t4QUA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Step-Up photo by [Ahmad Odeh](https://unsplash.com/@aoddeh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-couple-of-people-that-are-dancing-on-a-stage-KHipnBn7sdY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
