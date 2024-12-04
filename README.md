@@ -4,7 +4,7 @@ Official website of Yasya '24
 
 Mostly based on code from codepen pens stitched together with iframes.
 
-Hosted on Cloudflare Pages (sorry, I had no choice)
+Hosted on Cloudflare Pages (sorry, I had no choice). If you're the web admin for Yasya 2025, please mail me for access.
 
 ## License
 
